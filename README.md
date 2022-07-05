@@ -12,5 +12,8 @@ To mitigate this limitation, the following paper focuses on the problem of weakl
 We evaluate our approach on the challenging GQA as well as VQA-HAT dataset for VQA grounding.
 Our experiments show that: while removing the information of masked objects from standard transformer architectures leads to a significant drop in performance, the integration of capsules significantly improves the grounding ability of such systems and provides new state-of-the-art results compared to other approaches in the field.
 
+### Qualitative Results
+![gqa-qualitative](images/teaser.pdf)
+
 
 
