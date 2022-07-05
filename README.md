@@ -2,7 +2,7 @@
 
 [Aisha Urooj Khan](https://aishaurooj.wixsite.com/aishaurooj), [Hilde Kuehne](https://hildekuehne.github.io/), [Chuang Gan](https://people.csail.mit.edu/ganchuang/), [Niels Da Vitoria Lobo](https://www.crcv.ucf.edu/person/niels-lobo/), [Mubarak Shah](https://www.crcv.ucf.edu/person/mubarak-shah/)
 
-[`Website`]() | [`arXiv`]() | [`BibTeX`]()
+[`Website`]() | [`arXiv`]() | [`BibTeX`](#citation)
 
 Official Pytorch implementation and pre-trained models for Weakly Supervised Grounding for VQA in Vision-Language Transformers (coming soon).
 
@@ -12,8 +12,21 @@ To mitigate this limitation, the following paper focuses on the problem of weakl
 We evaluate our approach on the challenging GQA as well as VQA-HAT dataset for VQA grounding.
 Our experiments show that: while removing the information of masked objects from standard transformer architectures leads to a significant drop in performance, the integration of capsules significantly improves the grounding ability of such systems and provides new state-of-the-art results compared to other approaches in the field.
 
+<p align="center">
+<img src="images/main_fig.png" width=100% height=100% 
+class="center">
+</p>
+
+##### <p align="center">(a) Proposed Architecture, (b) Proposed Capsule Encoding layer, (c) Proposed Capsule Layer </p>
+
 ### Qualitative Results
-![gqa-qualitative](images/teaser.pdf)
+![gqa-qualitative](images/teaser.png)
+
+### Citation
+If this work and/or dataset is useful for your research, please cite our paper.
+
+### Questions?
+Please contact 'aishaurooj@gmail.com'
 
 
 
