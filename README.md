@@ -25,6 +25,14 @@ class="center">
 ### Citation
 If this work is useful for your research, please cite our paper.
 
+```bibtex
+@inproceedings{Khan2022WeaklySG,
+  title={Weakly Supervised Grounding for VQA in Vision-Language Transformers},
+  author={Aisha Urooj Khan and Hilde Kuehne and Chuang Gan and Niels da Vitoria Lobo and Mubarak Shah},
+  year={2022}
+}
+```
+
 ### Questions?
 Please contact 'aishaurooj@gmail.com'
 
