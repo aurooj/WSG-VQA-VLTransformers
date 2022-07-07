@@ -23,7 +23,7 @@ class="center">
 ![gqa-qualitative](images/teaser.png)
 
 ### Citation
-If this work and/or dataset is useful for your research, please cite our paper.
+If this work is useful for your research, please cite our paper.
 
 ### Questions?
 Please contact 'aishaurooj@gmail.com'
