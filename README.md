@@ -22,6 +22,9 @@ class="center">
 ### Qualitative Results
 ![gqa-qualitative](images/teaser.png)
 
+### Code
+This code is built upon code base of [LXMERT](https://github.com/airsplay/lxmert). Thanks to [Hao Tan](https://scholar.google.com/citations?user=OV1Y3FUAAAAJ&hl=en) for providing excellent code for their model.
+
 ### Citation
 If this work is useful for your research, please cite our paper.
 
