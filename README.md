@@ -25,6 +25,13 @@ class="center">
 ### Code
 This code is built upon code base of [LXMERT](https://github.com/airsplay/lxmert). Thanks to [Hao Tan](https://scholar.google.com/citations?user=OV1Y3FUAAAAJ&hl=en) for providing excellent code for their model.
 
+#### Pretraining 
+To pretrain the backbone, use the following command:
+
+```
+bash run/lxmert_pretrain_2stage_fulldata_no_init_16_caps.bash
+```
+
 ### Citation
 If this work is useful for your research, please cite our paper.
 
