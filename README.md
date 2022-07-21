@@ -37,6 +37,14 @@ To pretrain the backbone, use the following command:
 bash run/pretrain_2stage_fulldata_no_init_16_caps.bash
 ```
 
+#### Finetuning on downstream tasks
+
+##### GQA
+See ``` run/gqa_finetune_caps.bash ``` for finetuning on GQA dataset. 
+
+##### VQA-HAT
+Finetuning on VQA-HAT is similar to how we finetune the model on GQA. I will keep adding more concrete details in next few days.
+
 ### Citation
 If this work is useful for your research, please cite our paper.
 
