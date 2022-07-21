@@ -25,11 +25,16 @@ class="center">
 ### Code
 This code is built upon code base of [LXMERT](https://github.com/airsplay/lxmert). Thanks to [Hao Tan](https://scholar.google.com/citations?user=OV1Y3FUAAAAJ&hl=en) for providing excellent code for their model.
 
+#### Datasets
+for pretraining, we used MSCOCO, VG for image-captions pairs and Viz7W, VQA v2.0, GQA for question-image pairs. We used instructions provided by [LXMERT](https://github.com/airsplay/lxmert) to prepare the data except a few changes.
+1. We removed GQA validation set from pretraining data as we use it for grounding evaluation. 
+2. We validate our pretraining on mscoco-minival split.
+
 #### Pretraining 
 To pretrain the backbone, use the following command:
 
 ```
-bash run/lxmert_pretrain_2stage_fulldata_no_init_16_caps.bash
+bash run/pretrain_2stage_fulldata_no_init_16_caps.bash
 ```
 
 ### Citation
