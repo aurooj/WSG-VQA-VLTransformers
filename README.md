@@ -49,10 +49,24 @@ Finetuning on VQA-HAT is similar to how we finetune the model on GQA. I will kee
 If this work is useful for your research, please cite our paper.
 
 ```bibtex
-@inproceedings{Khan2022WeaklySG,
-  title={Weakly Supervised Grounding for VQA in Vision-Language Transformers},
-  author={Aisha Urooj Khan and Hilde Kuehne and Chuang Gan and Niels da Vitoria Lobo and Mubarak Shah},
-  year={2022}
+@InProceedings{10.1007/978-3-031-19833-5_38,
+author="Khan, Aisha Urooj
+and Kuehne, Hilde
+and Gan, Chuang
+and Lobo, Niels Da Vitoria
+and Shah, Mubarak",
+editor="Avidan, Shai
+and Brostow, Gabriel
+and Ciss{\'e}, Moustapha
+and Farinella, Giovanni Maria
+and Hassner, Tal",
+title="Weakly Supervised Grounding for VQA in Vision-Language Transformers",
+booktitle="Computer Vision -- ECCV 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="652--670",
+isbn="978-3-031-19833-5"
 }
 ```
 
